@@ -5,12 +5,11 @@ handlers.GrantItemsToUser = function(args)
     ({
    
     "PlayFabId" : currentPlayerId,
-    "ItemIds": [
-    "Beach_1"]
+    "ItemIds": args
    
     });
 
-    return "Executed";
+    return "Executed" + args;
 }
 
 
