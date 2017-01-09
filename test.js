@@ -1,6 +1,5 @@
  
-
-function GrantItemsToUser()
+handlers.GrantItemsToUser = function(args)
 {
     var GrantInventoryToUserResponse = server.GrantItemsToUser
     ({
@@ -10,7 +9,11 @@ function GrantItemsToUser()
     "Beach_1"]
    
     });
+
+    return "Executed";
 }
+
+
 
 
 
